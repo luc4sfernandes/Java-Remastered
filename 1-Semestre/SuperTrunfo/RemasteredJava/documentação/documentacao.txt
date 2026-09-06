@@ -1,0 +1,17 @@
+Jogador --> Carta --> Atributos
+
+1* Cadastrar Cartas(Atributos):
+	int População
+	float Área
+	float PIB 
+	int Número de pontos turísticos
+
+2* Cadastrar Cartas(Funcionalidade):
+	- 4 estados
+	- 1 estado -> 4 cidades
+	- 8 Estado entre (A a H)
+	- cidade (1 a 4)
+	- Codigo da carta: 
+		- Estado + Cidade = (Ex: A01) 
+
+3* Imprimit os dados de duas cartas		
