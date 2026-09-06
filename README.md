@@ -1,9 +1,10 @@
 # ☕ Java-Remastered
 
-> Remasterizando os primeiros códigos da minha vida: resgatando a lógica antiga em C e reescrevendo tudo em Java.
+> Remasterizando os primeiros códigos da minha vida: transformando a lógica antiga em C para o Java.
 
-A ideia desse repositório é servir como um arquivo pessoal e histórico da minha jornada na programação. 🚀
+![C](https://img.shields.io/badge/Original-C-00599C?style=flat-square&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Remastered-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-Aqui estou pegando os primeiríssimos programas que criei lá no começo, quando aprendia em C, e reescrevendo cada um deles em Java. 
+A ideia desse repositório é servir como um arquivo pessoal dos meus primeiros passos na programação. 🚀
 
-Mais do que apenas guardar o código, o objetivo é realmente documentar o meu ponto de partida, ver a minha própria evolução e dar uma vida nova à minha lógica inicial. 💭
+Estou resgatando os programas que criei lá no início em **C** e reescrevendo cada um deles em **Java** para deixar tudo registrado.
