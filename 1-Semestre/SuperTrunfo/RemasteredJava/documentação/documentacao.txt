@@ -12,6 +12,6 @@ Jogador --> Carta --> Atributos
 	- 8 Estado entre (A a H)
 	- cidade (1 a 4)
 	- Codigo da carta: 
-		- Estado + Cidade = (Ex: A01) 
+		- Estado + Cidade = (Ex: A01) --> Não vou usar
 
 3* Imprimit os dados de duas cartas		

@@ -1,10 +1,9 @@
 package pacotes;
 import java.util.Scanner;
 
-public class Carta {
+public class Carta { 
 	public int populacao;
 	public int pontosTuristicos;
-	// Essas variaveis não funcina direito quando cadastra
 	public double area;
 	public double pib;
 
@@ -16,6 +15,7 @@ public class Carta {
 	} 
 
 	public Carta() {
+	//	cidade = "Desconhecida";
 		populacao = 0;
 		pontosTuristicos = 0;
 		area = 0;
@@ -25,16 +25,22 @@ public class Carta {
 	public void cadastroCarta(){
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.printf("// Cadastro De Cartas //\nPopulação: ");
+		System.out.printf("\n// Cadastro De Cartas //\nPopulação: ");
 		populacao = entrada.nextInt();
 
 		System.out.printf("Pontos Turisticos: ");
 		pontosTuristicos = entrada.nextInt();
 
-		System.out.printf("Pontos Aréa: ");
+		System.out.printf("Pontos Area: ");
 		area = entrada.nextDouble();
 
 		System.out.printf("Pontos PIB: ");
 		pib = entrada.nextDouble();			
+	}
+
+	public String cadastroNomeJogador(){
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Nome do Jogador: ");
+		return entrada.nextLine();
 	}
 }

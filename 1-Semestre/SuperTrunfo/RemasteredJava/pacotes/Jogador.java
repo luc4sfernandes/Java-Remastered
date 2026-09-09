@@ -11,15 +11,12 @@ public class Jogador {
 	}	
 
 	public Jogador(){
-		nome = "Desconhecido"; 
 		this.carta = new Carta();
+		nome = carta.cadastroNomeJogador(); 
 	}
 
 	public void info(){
 		System.out.printf("\n// Info //\nNome: %s\nPopulação: %d\nPontos Turisticos: %d\nArea: %.2f\nPib %.2f\n",
 		nome, carta.populacao, carta.pontosTuristicos, carta.area, carta.pib);
 	}
-
-	// Preciso por cadastro do nome jogador, que e 'Desconhecido'
-
 }
